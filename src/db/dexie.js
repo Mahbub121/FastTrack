@@ -1,4 +1,5 @@
 import Dexie from 'dexie';
+import { setupSyncHooks } from './sync';
 
 export const db = new Dexie('KetoLifeDB');
 
@@ -13,4 +14,8 @@ db.version(1).stores({
   achievements: 'id'
 });
 
+// Register Cloud sync hooks
+setupSyncHooks();
+
 export default db;
+

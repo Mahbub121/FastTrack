@@ -101,7 +101,7 @@ export default function Onboarding() {
         current_weight_kg: parseFloat(formData.current_weight_kg),
         target_weight_kg: parseFloat(formData.target_weight_kg),
         daily_carb_limit_g: parseInt(formData.daily_carb_limit_g),
-        custom_fast_hours: formData.fasting_protocol === 'custom' ? parseInt(formData.custom_fast_hours) : undefined
+        custom_fast_hours: formData.fasting_protocol === 'custom' ? parseInt(formData.custom_fast_hours) : null
       };
       
       // Seed DB and complete onboarding
