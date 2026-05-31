@@ -1,0 +1,706 @@
+[
+  {
+    "id": "boiled_egg",
+    "name_bn": "সিদ্ধ ডিম (১টি মাঝারি)",
+    "name_en": "Boiled Egg (1 medium, ~50g)",
+    "category": "protein",
+    "per_100g": {
+      "net_carbs_g": 0.6,
+      "total_carbs_g": 0.6,
+      "fiber_g": 0,
+      "fat_g": 11.2,
+      "protein_g": 12.6,
+      "kcal": 155
+    },
+    "is_custom": false,
+    "is_keto_friendly": true
+  },
+  {
+    "id": "fried_egg_ghee",
+    "name_bn": "ঘি দিয়ে ডিম ভাজি (১টি)",
+    "name_en": "Egg Fried in Ghee (1)",
+    "category": "protein",
+    "per_100g": {
+      "net_carbs_g": 0.6,
+      "total_carbs_g": 0.6,
+      "fiber_g": 0,
+      "fat_g": 18.0,
+      "protein_g": 12.0,
+      "kcal": 210
+    },
+    "is_custom": false,
+    "is_keto_friendly": true
+  },
+  {
+    "id": "chicken_broiler",
+    "name_bn": "মুরগির মাংস (ব্রয়লার)",
+    "name_en": "Chicken (Broiler)",
+    "category": "protein",
+    "per_100g": {
+      "net_carbs_g": 0,
+      "total_carbs_g": 0,
+      "fiber_g": 0,
+      "fat_g": 14.0,
+      "protein_g": 18.6,
+      "kcal": 215
+    },
+    "is_custom": false,
+    "is_keto_friendly": true
+  },
+  {
+    "id": "chicken_deshi",
+    "name_bn": "দেশি মুরগির মাংস",
+    "name_en": "Deshi Chicken",
+    "category": "protein",
+    "per_100g": {
+      "net_carbs_g": 0,
+      "total_carbs_g": 0,
+      "fiber_g": 0,
+      "fat_g": 8.0,
+      "protein_g": 20.0,
+      "kcal": 160
+    },
+    "is_custom": false,
+    "is_keto_friendly": true
+  },
+  {
+    "id": "beef",
+    "name_bn": "গরুর মাংস (চর্বিযুক্ত)",
+    "name_en": "Beef (Fatty)",
+    "category": "protein",
+    "per_100g": {
+      "net_carbs_g": 0,
+      "total_carbs_g": 0,
+      "fiber_g": 0,
+      "fat_g": 20.0,
+      "protein_g": 17.5,
+      "kcal": 250
+    },
+    "is_custom": false,
+    "is_keto_friendly": true
+  },
+  {
+    "id": "mutton",
+    "name_bn": "খাসির মাংস",
+    "name_en": "Mutton",
+    "category": "protein",
+    "per_100g": {
+      "net_carbs_g": 0,
+      "total_carbs_g": 0,
+      "fiber_g": 0,
+      "fat_g": 21.0,
+      "protein_g": 16.5,
+      "kcal": 260
+    },
+    "is_custom": false,
+    "is_keto_friendly": true
+  },
+  {
+    "id": "hilsa_fish",
+    "name_bn": "ইলিশ মাছ",
+    "name_en": "Hilsa Fish",
+    "category": "protein",
+    "per_100g": {
+      "net_carbs_g": 0,
+      "total_carbs_g": 0,
+      "fiber_g": 0,
+      "fat_g": 19.4,
+      "protein_g": 21.8,
+      "kcal": 270
+    },
+    "is_custom": false,
+    "is_keto_friendly": true
+  },
+  {
+    "id": "rui_fish",
+    "name_bn": "রুই মাছ",
+    "name_en": "Rui Fish",
+    "category": "protein",
+    "per_100g": {
+      "net_carbs_g": 0,
+      "total_carbs_g": 0,
+      "fiber_g": 0,
+      "fat_g": 5.4,
+      "protein_g": 16.6,
+      "kcal": 120
+    },
+    "is_custom": false,
+    "is_keto_friendly": true
+  },
+  {
+    "id": "shrimp",
+    "name_bn": "চিংড়ি মাছ",
+    "name_en": "Shrimp / Prawn",
+    "category": "protein",
+    "per_100g": {
+      "net_carbs_g": 0.2,
+      "total_carbs_g": 0.2,
+      "fiber_g": 0,
+      "fat_g": 1.0,
+      "protein_g": 20.0,
+      "kcal": 95
+    },
+    "is_custom": false,
+    "is_keto_friendly": true
+  },
+  {
+    "id": "pangas_fish",
+    "name_bn": "পাঙ্গাস মাছ",
+    "name_en": "Pangas Fish (Fatty)",
+    "category": "protein",
+    "per_100g": {
+      "net_carbs_g": 0,
+      "total_carbs_g": 0,
+      "fiber_g": 0,
+      "fat_g": 12.0,
+      "protein_g": 15.0,
+      "kcal": 170
+    },
+    "is_custom": false,
+    "is_keto_friendly": true
+  },
+  {
+    "id": "ghee",
+    "name_bn": "খাঁটি ঘি",
+    "name_en": "Pure Ghee",
+    "category": "fat",
+    "per_100g": {
+      "net_carbs_g": 0,
+      "total_carbs_g": 0,
+      "fiber_g": 0,
+      "fat_g": 99.5,
+      "protein_g": 0,
+      "kcal": 898
+    },
+    "is_custom": false,
+    "is_keto_friendly": true
+  },
+  {
+    "id": "butter",
+    "name_bn": "মাখন",
+    "name_en": "Butter",
+    "category": "fat",
+    "per_100g": {
+      "net_carbs_g": 0.1,
+      "total_carbs_g": 0.1,
+      "fiber_g": 0,
+      "fat_g": 81.0,
+      "protein_g": 0.8,
+      "kcal": 717
+    },
+    "is_custom": false,
+    "is_keto_friendly": true
+  },
+  {
+    "id": "coconut_oil",
+    "name_bn": "এক্সট্রা ভার্জিন নারিকেল তেল",
+    "name_en": "Extra Virgin Coconut Oil",
+    "category": "fat",
+    "per_100g": {
+      "net_carbs_g": 0,
+      "total_carbs_g": 0,
+      "fiber_g": 0,
+      "fat_g": 100.0,
+      "protein_g": 0,
+      "kcal": 862
+    },
+    "is_custom": false,
+    "is_keto_friendly": true
+  },
+  {
+    "id": "olive_oil",
+    "name_bn": "অলিভ অয়েল (এক্সট্রা ভার্জিন)",
+    "name_en": "Extra Virgin Olive Oil",
+    "category": "fat",
+    "per_100g": {
+      "net_carbs_g": 0,
+      "total_carbs_g": 0,
+      "fiber_g": 0,
+      "fat_g": 100.0,
+      "protein_g": 0,
+      "kcal": 884
+    },
+    "is_custom": false,
+    "is_keto_friendly": true
+  },
+  {
+    "id": "mustard_oil",
+    "name_bn": "খাঁটি সরিষার তেল",
+    "name_en": "Mustard Oil",
+    "category": "fat",
+    "per_100g": {
+      "net_carbs_g": 0,
+      "total_carbs_g": 0,
+      "fiber_g": 0,
+      "fat_g": 100.0,
+      "protein_g": 0,
+      "kcal": 884
+    },
+    "is_custom": false,
+    "is_keto_friendly": true
+  },
+  {
+    "id": "cucumber",
+    "name_bn": "শসা",
+    "name_en": "Cucumber (with peel)",
+    "category": "veggie",
+    "per_100g": {
+      "net_carbs_g": 1.5,
+      "total_carbs_g": 2.2,
+      "fiber_g": 0.7,
+      "fat_g": 0.1,
+      "protein_g": 0.7,
+      "kcal": 15
+    },
+    "is_custom": false,
+    "is_keto_friendly": true
+  },
+  {
+    "id": "lau",
+    "name_bn": "লাউ (সিদ্ধ)",
+    "name_en": "Bottle Gourd (Lau)",
+    "category": "veggie",
+    "per_100g": {
+      "net_carbs_g": 2.5,
+      "total_carbs_g": 3.4,
+      "fiber_g": 0.9,
+      "fat_g": 0.1,
+      "protein_g": 0.6,
+      "kcal": 17
+    },
+    "is_custom": false,
+    "is_keto_friendly": true
+  },
+  {
+    "id": "palong_shak",
+    "name_bn": "পালং শাক",
+    "name_en": "Spinach (Palong Shak)",
+    "category": "veggie",
+    "per_100g": {
+      "net_carbs_g": 1.4,
+      "total_carbs_g": 3.6,
+      "fiber_g": 2.2,
+      "fat_g": 0.4,
+      "protein_g": 2.9,
+      "kcal": 23
+    },
+    "is_custom": false,
+    "is_keto_friendly": true
+  },
+  {
+    "id": "lal_shak",
+    "name_bn": "লাল শাক",
+    "name_en": "Red Amaranth (Lal Shak)",
+    "category": "veggie",
+    "per_100g": {
+      "net_carbs_g": 2.0,
+      "total_carbs_g": 3.8,
+      "fiber_g": 1.8,
+      "fat_g": 0.3,
+      "protein_g": 2.2,
+      "kcal": 28
+    },
+    "is_custom": false,
+    "is_keto_friendly": true
+  },
+  {
+    "id": "broccoli",
+    "name_bn": "ব্রকলি",
+    "name_en": "Broccoli",
+    "category": "veggie",
+    "per_100g": {
+      "net_carbs_g": 4.0,
+      "total_carbs_g": 6.6,
+      "fiber_g": 2.6,
+      "fat_g": 0.4,
+      "protein_g": 2.8,
+      "kcal": 34
+    },
+    "is_custom": false,
+    "is_keto_friendly": true
+  },
+  {
+    "id": "cauliflower",
+    "name_bn": "ফুলকপি",
+    "name_en": "Cauliflower",
+    "category": "veggie",
+    "per_100g": {
+      "net_carbs_g": 3.0,
+      "total_carbs_g": 5.0,
+      "fiber_g": 2.0,
+      "fat_g": 0.3,
+      "protein_g": 1.9,
+      "kcal": 25
+    },
+    "is_custom": false,
+    "is_keto_friendly": true
+  },
+  {
+    "id": "cabbage",
+    "name_bn": "বাঁধাকপি",
+    "name_en": "Cabbage",
+    "category": "veggie",
+    "per_100g": {
+      "net_carbs_g": 3.5,
+      "total_carbs_g": 6.0,
+      "fiber_g": 2.5,
+      "fat_g": 0.1,
+      "protein_g": 1.3,
+      "kcal": 25
+    },
+    "is_custom": false,
+    "is_keto_friendly": true
+  },
+  {
+    "id": "eggplant",
+    "name_bn": "বেগুন (ভর্তা/সিদ্ধ)",
+    "name_en": "Eggplant (Begun)",
+    "category": "veggie",
+    "per_100g": {
+      "net_carbs_g": 2.3,
+      "total_carbs_g": 5.7,
+      "fiber_g": 3.4,
+      "fat_g": 0.2,
+      "protein_g": 1.0,
+      "kcal": 25
+    },
+    "is_custom": false,
+    "is_keto_friendly": true
+  },
+  {
+    "id": "tomato",
+    "name_bn": "টমেটো (মাঝারি টক)",
+    "name_en": "Tomato (raw)",
+    "category": "veggie",
+    "per_100g": {
+      "net_carbs_g": 2.7,
+      "total_carbs_g": 3.9,
+      "fiber_g": 1.2,
+      "fat_g": 0.2,
+      "protein_g": 0.9,
+      "kcal": 18
+    },
+    "is_custom": false,
+    "is_keto_friendly": true
+  },
+  {
+    "id": "bell_pepper",
+    "name_bn": "সবুজ ক্যাপসিকাম",
+    "name_en": "Green Capsicum / Bell Pepper",
+    "category": "veggie",
+    "per_100g": {
+      "net_carbs_g": 2.9,
+      "total_carbs_g": 4.6,
+      "fiber_g": 1.7,
+      "fat_g": 0.2,
+      "protein_g": 0.9,
+      "kcal": 20
+    },
+    "is_custom": false,
+    "is_keto_friendly": true
+  },
+  {
+    "id": "paneer",
+    "name_bn": "দেশি পনির",
+    "name_en": "Deshi Paneer (Cheese)",
+    "category": "dairy",
+    "per_100g": {
+      "net_carbs_g": 3.4,
+      "total_carbs_g": 3.4,
+      "fiber_g": 0,
+      "fat_g": 20.8,
+      "protein_g": 18.2,
+      "kcal": 265
+    },
+    "is_custom": false,
+    "is_keto_friendly": true
+  },
+  {
+    "id": "sour_yogurt",
+    "name_bn": "টক দই (চিনি ছাড়া)",
+    "name_en": "Sour Yogurt (Unsweetened)",
+    "category": "dairy",
+    "per_100g": {
+      "net_carbs_g": 4.7,
+      "total_carbs_g": 4.7,
+      "fiber_g": 0,
+      "fat_g": 3.3,
+      "protein_g": 3.5,
+      "kcal": 61
+    },
+    "is_custom": false,
+    "is_keto_friendly": true
+  },
+  {
+    "id": "heavy_cream",
+    "name_bn": "হুইপিং ক্রিম (ডাবল বা হেভি)",
+    "name_en": "Heavy Whipping Cream",
+    "category": "dairy",
+    "per_100g": {
+      "net_carbs_g": 2.7,
+      "total_carbs_g": 2.7,
+      "fiber_g": 0,
+      "fat_g": 36.0,
+      "protein_g": 2.0,
+      "kcal": 340
+    },
+    "is_custom": false,
+    "is_keto_friendly": true
+  },
+  {
+    "id": "almonds",
+    "name_bn": "কাঠবাদাম (কাঁচা)",
+    "name_en": "Raw Almonds",
+    "category": "nuts",
+    "per_100g": {
+      "net_carbs_g": 9.4,
+      "total_carbs_g": 21.6,
+      "fiber_g": 12.2,
+      "fat_g": 49.9,
+      "protein_g": 21.2,
+      "kcal": 579
+    },
+    "is_custom": false,
+    "is_keto_friendly": true
+  },
+  {
+    "id": "walnuts",
+    "name_bn": "আখরোট",
+    "name_en": "Walnuts",
+    "category": "nuts",
+    "per_100g": {
+      "net_carbs_g": 7.0,
+      "total_carbs_g": 13.7,
+      "fiber_g": 6.7,
+      "fat_g": 65.2,
+      "protein_g": 15.2,
+      "kcal": 654
+    },
+    "is_custom": false,
+    "is_keto_friendly": true
+  },
+  {
+    "id": "peanuts",
+    "name_bn": "চিনাবাদাম (ভাজা)",
+    "name_en": "Roasted Peanuts",
+    "category": "nuts",
+    "per_100g": {
+      "net_carbs_g": 7.6,
+      "total_carbs_g": 16.1,
+      "fiber_g": 8.5,
+      "fat_g": 49.2,
+      "protein_g": 25.8,
+      "kcal": 567
+    },
+    "is_custom": false,
+    "is_keto_friendly": true
+  },
+  {
+    "id": "chia_seeds",
+    "name_bn": "চিয়া সিড",
+    "name_en": "Chia Seeds",
+    "category": "nuts",
+    "per_100g": {
+      "net_carbs_g": 7.7,
+      "total_carbs_g": 42.1,
+      "fiber_g": 34.4,
+      "fat_g": 30.7,
+      "protein_g": 16.5,
+      "kcal": 486
+    },
+    "is_custom": false,
+    "is_keto_friendly": true
+  },
+  {
+    "id": "black_coffee",
+    "name_bn": "ব্ল্যাক কফি",
+    "name_en": "Black Coffee (No Sugar)",
+    "category": "drink",
+    "per_100g": {
+      "net_carbs_g": 0,
+      "total_carbs_g": 0,
+      "fiber_g": 0,
+      "fat_g": 0,
+      "protein_g": 0.1,
+      "kcal": 1
+    },
+    "is_custom": false,
+    "is_keto_friendly": true
+  },
+  {
+    "id": "lemon_water_salt",
+    "name_bn": "লেবু পানি (লবণ দিয়ে, চিনি ছাড়া)",
+    "name_en": "Lemon Water (with Salt, No Sugar)",
+    "category": "drink",
+    "per_100g": {
+      "net_carbs_g": 0.8,
+      "total_carbs_g": 1.2,
+      "fiber_g": 0.4,
+      "fat_g": 0,
+      "protein_g": 0.1,
+      "kcal": 3
+    },
+    "is_custom": false,
+    "is_keto_friendly": true
+  },
+  {
+    "id": "bulletproof_coffee",
+    "name_bn": "বুলেটপ্রুফ কফি (ঘি ও এমসিটি তেল)",
+    "name_en": "Bulletproof Coffee (with Ghee & MCT)",
+    "category": "drink",
+    "per_100g": {
+      "net_carbs_g": 0,
+      "total_carbs_g": 0,
+      "fiber_g": 0,
+      "fat_g": 14.2,
+      "protein_g": 0.1,
+      "kcal": 128
+    },
+    "is_custom": false,
+    "is_keto_friendly": true
+  },
+  {
+    "id": "apple_cider_vinegar",
+    "name_bn": "অ্যাপল সিডার ভিনেগার (১ চামচ পানিতে)",
+    "name_en": "Apple Cider Vinegar (ACV with Water)",
+    "category": "drink",
+    "per_100g": {
+      "net_carbs_g": 0.9,
+      "total_carbs_g": 0.9,
+      "fiber_g": 0,
+      "fat_g": 0,
+      "protein_g": 0,
+      "kcal": 3
+    },
+    "is_custom": false,
+    "is_keto_friendly": true
+  },
+  {
+    "id": "isabgul_husk",
+    "name_bn": "ইসবগুলের ভুষি (চিনি ছাড়া)",
+    "name_en": "Psyllium Husk (Isabgul, Unsweetened)",
+    "category": "other",
+    "per_100g": {
+      "net_carbs_g": 4.0,
+      "total_carbs_g": 80.0,
+      "fiber_g": 76.0,
+      "fat_g": 0.6,
+      "protein_g": 2.5,
+      "kcal": 38
+    },
+    "is_custom": false,
+    "is_keto_friendly": true
+  },
+  {
+    "id": "rice_cooked",
+    "name_bn": "সাদা ভাত",
+    "name_en": "White Rice",
+    "category": "other",
+    "per_100g": {
+      "net_carbs_g": 28.0,
+      "total_carbs_g": 28.2,
+      "fiber_g": 0.2,
+      "fat_g": 0.3,
+      "protein_g": 2.7,
+      "kcal": 130
+    },
+    "is_custom": false,
+    "is_keto_friendly": false
+  },
+  {
+    "id": "roti_flour",
+    "name_bn": "আটার রুটি (কিটো ফ্রেন্ডলি নয়)",
+    "name_en": "Atta Roti (Non-Keto)",
+    "category": "other",
+    "per_100g": {
+      "net_carbs_g": 42.0,
+      "total_carbs_g": 47.0,
+      "fiber_g": 5.0,
+      "fat_g": 1.2,
+      "protein_g": 8.0,
+      "kcal": 220
+    },
+    "is_custom": false,
+    "is_keto_friendly": false
+  },
+  {
+    "id": "lentils_dal",
+    "name_bn": "মসুর ডাল রান্না (কিটো ফ্রেন্ডলি নয়)",
+    "name_en": "Lentil Soup / Dal (Non-Keto)",
+    "category": "other",
+    "per_100g": {
+      "net_carbs_g": 16.2,
+      "total_carbs_g": 20.1,
+      "fiber_g": 3.9,
+      "fat_g": 2.2,
+      "protein_g": 9.0,
+      "kcal": 136
+    },
+    "is_custom": false,
+    "is_keto_friendly": false
+  },
+  {
+    "id": "beef_biryani",
+    "name_bn": "গরুর বিরিয়ানি",
+    "name_en": "Beef Biryani",
+    "category": "other",
+    "per_100g": {
+      "net_carbs_g": 28.0,
+      "total_carbs_g": 28.0,
+      "fiber_g": 0,
+      "fat_g": 12.0,
+      "protein_g": 9.0,
+      "kcal": 250
+    },
+    "is_custom": false,
+    "is_keto_friendly": false
+  },
+  {
+    "id": "mutton_tehari",
+    "name_bn": "খাসির তেহারি",
+    "name_en": "Mutton Tehari",
+    "category": "other",
+    "per_100g": {
+      "net_carbs_g": 26.0,
+      "total_carbs_g": 26.0,
+      "fiber_g": 0,
+      "fat_g": 14.0,
+      "protein_g": 8.0,
+      "kcal": 260
+    },
+    "is_custom": false,
+    "is_keto_friendly": false
+  },
+  {
+    "id": "fried_chicken_kfc",
+    "name_bn": "ফ্রাইড চিকেন",
+    "name_en": "Fried Chicken (KFC Style)",
+    "category": "protein",
+    "per_100g": {
+      "net_carbs_g": 12.0,
+      "total_carbs_g": 12.0,
+      "fiber_g": 0,
+      "fat_g": 15.0,
+      "protein_g": 18.0,
+      "kcal": 260
+    },
+    "is_custom": false,
+    "is_keto_friendly": false
+  },
+  {
+    "id": "pizza",
+    "name_bn": "পিৎজা",
+    "name_en": "Pizza",
+    "category": "other",
+    "per_100g": {
+      "net_carbs_g": 30.0,
+      "total_carbs_g": 30.0,
+      "fiber_g": 0,
+      "fat_g": 10.0,
+      "protein_g": 11.0,
+      "kcal": 260
+    },
+    "is_custom": false,
+    "is_keto_friendly": false
+  }
+]
