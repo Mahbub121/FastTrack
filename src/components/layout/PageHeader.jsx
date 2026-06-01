@@ -33,7 +33,10 @@ export default function PageHeader() {
   };
 
   return (
-    <header className="sticky top-0 z-50 w-full glass-header px-4 py-3.5 flex items-center justify-between">
+    <header 
+      className="sticky top-0 z-50 w-full glass-header px-4 pb-3.5 flex items-center justify-between"
+      style={{ paddingTop: 'calc(env(safe-area-inset-top, 0px) + 14px)' }}
+    >
       <div className="flex items-center gap-2">
         <div className="w-8 h-8 rounded-lg bg-gradient-to-tr from-accent-primary to-emerald-400 flex items-center justify-center shadow-glow-primary">
           <Flame className="w-5 h-5 text-slate-950 font-bold" />
